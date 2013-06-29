@@ -1,0 +1,28 @@
+{
+  "author": "cruse2382",
+	"site": "http://facebook.com/HolaUnblockerScripts",
+	"name": "thepiratebay.sx 1.0",
+	"description": "Unblocks thepiratebay.sx",
+	"unblocker_rules": {
+		"thepiratebay.sx": {
+			"description": "Unblock thepiratebay.sx",
+			"link": "http://thepiratebay.sx",
+			"icon": "http://www.xboxist.com/xbox-360/images/2008/10/PirateBay-icon.jpg",
+			"os": [
+				"windows",
+				"android"
+			],
+			"cmds": [
+				{
+					"hosts": [
+						"thepiratebay.sx",
+						"piratebay.se",
+						"thepiratebay.se"
+					],
+					"dst_dns": "true",
+					"then": "PROXY US"
+				}
+			]
+		}
+	}
+}
