@@ -1,0 +1,28 @@
+{
+  "author": "cruse2382",
+	"site": "http://facebook.com/HolaUnblockerScripts",
+	"name": "kickass.to 1.0",
+	"description": "Unblocks kickass.to",
+	"unblocker_rules": {
+		"kickass.to": {
+			"description": "Unblock kickass.to",
+			"link": "http://www.kickass.to",
+			"icon": "http://2.bp.blogspot.com/-SoPNFQq9l4o/UNyESekn_TI/AAAAAAAABAA/r8kGnDvACBk/s1600/f45q0n4no5qkt2t68dqo.png",
+			"os": [
+				"windows",
+				"android"
+			],
+			"cmds": [
+				{
+					"hosts": [
+						"kickass.to",
+						"kastatic.com",
+						"a.kickass.to"
+					],
+					"dst_dns": "true",
+					"then": "PROXY US"
+				}
+			]
+		}
+	}
+}
